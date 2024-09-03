@@ -19,7 +19,7 @@ const SignatureScreen = () => {
   const ref = useRef();
 
   const handleOK = signature => {
-    // console.log(signature);
+    console('Zaheer');
     setSignature(signature);
   };
 
