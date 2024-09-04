@@ -25,11 +25,6 @@ const SignatureScreen = () => {
 
   const handleSave = async () => {
     try {
-      // if (Number(Platform.Version) >= 33) {
-      //   // return true;
-      //   console.log('old ');
-      // }
-
       const permission = PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE;
 
       const hasPermission = await PermissionsAndroid.check(permission);
